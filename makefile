@@ -1,2 +1,2 @@
 build:
-	protoc -I=. --go-grpc_out=./rocket/v1 rocket/v1/*.proto
+	protoc -I=. --go-grpc_out=./rocket/v1 --go_out=./rocket/v1 rocket/v1/*.proto
